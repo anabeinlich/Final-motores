@@ -562,8 +562,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: -2522172206269238113, guid: 474f9ddbdce221a4e9323520d49aa318, type: 3}
-        m_TargetAssemblyTypeName: botonSalir, Assembly-CSharp
+      - m_Target: {fileID: -3560938536962977563, guid: 474f9ddbdce221a4e9323520d49aa318, type: 3}
+        m_TargetAssemblyTypeName: exit, Assembly-CSharp
         m_MethodName: FuncionCerrarJuego
         m_Mode: 1
         m_Arguments:

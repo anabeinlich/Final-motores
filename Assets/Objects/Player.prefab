@@ -257,3 +257,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rapidezDesplazamiento: 10
+  rapidezCorrer: 17
+  dejarDeCorrer: 10
