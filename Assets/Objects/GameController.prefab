@@ -10,6 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1278716036103518272}
   - component: {fileID: 3888581328219958463}
+  - component: {fileID: 1657692039457776619}
+  - component: {fileID: -2522172206269238113}
   m_Layer: 0
   m_Name: GameController
   m_TagString: GameController
@@ -42,5 +44,33 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6a9712a2059b8e04da0b9aa6aec2f354, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textCats: {fileID: 0}
+  panelWin: {fileID: 0}
+  panelLose: {fileID: 0}
+  rescuedCats: 0
+--- !u!114 &1657692039457776619
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2523509007317546088}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23ea6df04e720644788b6b7e5df6b253, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &-2522172206269238113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2523509007317546088}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d65e87f5d65fb741b15e6190fb53f2f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
