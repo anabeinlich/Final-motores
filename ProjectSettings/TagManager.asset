@@ -6,6 +6,7 @@ TagManager:
   tags:
   - gato
   - enemy
+  - bullet
   layers:
   - Default
   - TransparentFX

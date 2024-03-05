@@ -31,7 +31,7 @@ public class gunControl : MonoBehaviour
 
         Rigidbody bulletRB = bulletClone.GetComponent<Rigidbody>();
 
-        bulletRB.AddRelativeForce(Vector3.forward * force, ForceMode.Impulse);
+        bulletRB.AddRelativeForce(transform.forward * force, ForceMode.Impulse);
 
         Destroy(bulletClone, 3f);
     }

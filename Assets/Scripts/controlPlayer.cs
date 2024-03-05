@@ -10,7 +10,7 @@ public class controlPlayer : MonoBehaviour
 
     void Start()
     {
-        Cursor.lockState = CursorLockMode.Locked; 
+        //Cursor.lockState = CursorLockMode.Locked; 
     }
 
     
@@ -23,6 +23,11 @@ public class controlPlayer : MonoBehaviour
         movimientoCostados *= Time.deltaTime;
 
         transform.Translate(movimientoCostados, 0, movimientoAdelanteAtras);
+
+        if (Input.GetKey(KeyCode.W))
+        {
+            Cursor.lockState = CursorLockMode.Locked;
+        }
 
         if (Input.GetKeyDown("escape"))
         {
