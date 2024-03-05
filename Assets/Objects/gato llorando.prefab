@@ -74,6 +74,7 @@ GameObject:
   - component: {fileID: 1746254266618234798}
   - component: {fileID: 5682379259142184404}
   - component: {fileID: -2455906301177070024}
+  - component: {fileID: 7492214704376070040}
   m_Layer: 0
   m_Name: gato llorando
   m_TagString: gato
@@ -145,6 +146,18 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 2959467708922500008, guid: d7061d2ec501adb4da1e842bf1f2be57, type: 3}
+--- !u!114 &7492214704376070040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1400656508810304788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 535ac9cc6b5cbf848a8426de72d784b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1539085169209600397
 GameObject:
   m_ObjectHideFlags: 0

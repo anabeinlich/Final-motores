@@ -1,10 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class playerHP : MonoBehaviour
 {
     public int hp;
+    [SerializeField] private TextMeshProUGUI textLife;
 
     GameController gameController;
 
@@ -13,6 +15,7 @@ public class playerHP : MonoBehaviour
         gameController = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameController>();
 
         hp = 200;
+
     }
 
     
@@ -25,13 +28,14 @@ public class playerHP : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("enemy"))
         {
-            recibirDaño();
+            RecibirDaño();
+            textLife.text = "Life: " + hp.ToString();
         }
     }
 
-    public void recibirDaño()
+    public void RecibirDaño()
     {
-        hp -= 1;
+        hp -= 25;
         Debug.Log("recibiste un golpe");
 
         if (hp <= 0)

@@ -8,9 +8,10 @@ public class controlPlayer : MonoBehaviour
     public float rapidezCorrer = 17.0f;
     public float dejarDeCorrer = 10.0f;
 
+
     void Start()
     {
-        //Cursor.lockState = CursorLockMode.Locked; 
+        
     }
 
     

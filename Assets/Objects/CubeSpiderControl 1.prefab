@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 6036858609378030360}
   - component: {fileID: 7186212205293127318}
   - component: {fileID: 3993915726628509523}
+  - component: {fileID: -5011082206032529444}
   m_Layer: 0
   m_Name: CubeSpiderControl 1
   m_TagString: enemy
@@ -159,6 +160,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4d10494c3e607c4d9c8e21cc2f324ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &-5011082206032529444
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7587125452349405968}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &4011843388727080394
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -167,6 +189,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 7409636400020887132}
     m_Modifications:
+    - target: {fileID: 7770296957944081517, guid: fd02805ee801de64a828e8190cac7784, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 5d304ff74fdf7f34eb73ef7fef86c383, type: 2}
     - target: {fileID: 8349397572283510614, guid: fd02805ee801de64a828e8190cac7784, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.25379053
